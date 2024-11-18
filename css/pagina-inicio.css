@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Arial', sans-serif;
+}
+.welcome-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin-top: 50px;
+}
+.welcome-image {
+    max-height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.welcome-image:hover {
+    transform: scale(1.02);
+}
+.module-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.module-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.vehiculo-btn {
+    background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    color: white;
+}
+.propietario-btn {
+    background: linear-gradient(45deg, #43e97b 0%, #38f9d7 100%);
+    border: none;
+    color: white;
+}
+.aseguradora-btn {
+    background: linear-gradient(45deg, #ff5f6d 0%, #ffc371 100%);
+    border: none;
+    color: white;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}

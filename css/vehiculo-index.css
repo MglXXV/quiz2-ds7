@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container-modulo {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    padding: 50px;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.container-modulo:hover {
+    transform: scale(1.02);
+}
+.modulo-btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.modulo-btn:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.registro-btn {
+    background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    color: white;
+}
+.consulta-btn {
+    background: linear-gradient(45deg, #43e97b 0%, #38f9d7 100%);
+    border: none;
+    color: white;
+}
+.volver-btn {
+    background: linear-gradient(45deg, #ff5f6d 0%, #ffc371 100%);
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+}
