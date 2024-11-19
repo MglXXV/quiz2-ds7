@@ -1,12 +1,12 @@
 <?php
 // Incluir la clase de conexión a la base de datos
-require_once 'database/database.php';
+require_once '../database/database.php';
 
 // Crear instancia de la clase de base de datos
 $database = new database();
 $pdo = $database->getConnection();
 
-// Establecer la cabecera Content-Type a JSON
+// Establecer la cabecera Content-Type a JSSON
 header('Content-Type: application/json');
 
 // Obtener todos los vehículos de la base de datos
