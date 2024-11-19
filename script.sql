@@ -67,7 +67,7 @@ CREATE TABLE Vehiculo (
 
 CREATE TABLE EspecificacionesTecnicas (
   idEspecificacionesTecnicas INT  NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  capacidadDelMotor DECIMAL(3,1) NOT NULL,
+  capacidadDelMotor INT NOT NULL,
   numeroCilindros INT NOT NULL,
   pesoVehiculo INT NOT NULL,
   idVehiculo INT NOT NULL,

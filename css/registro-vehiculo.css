@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h1.form-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff477e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control, 
+.form-select {
+    border: 2px solid #ff477e;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus, 
+.form-select:focus {
+    border-color: #ff85a2;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(255, 71, 126, 0.5);
+}
+
+button[type="submit"] {
+    background: linear-gradient(90deg, #ff477e, #ff758c);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(255, 71, 126, 0.4);
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #ff85a2, #ffb5c1);
+    box-shadow: 0px 10px 25px rgba(255, 71, 126, 0.5);
+    transform: scale(1.05);
+}
+
+button[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1.form-title {
+        font-size: 2rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+    }
+}
